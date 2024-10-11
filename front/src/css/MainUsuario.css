@@ -1,0 +1,143 @@
+.contenedor-registroUusario-tabla{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-registro-usuario{
+    width: 97%;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(255, 115, 29);
+}
+
+.contenedor-registro-usuario label{
+    font-size: 20px;
+    margin-right: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.contenedor-registro-usuario input{
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: rgb(238, 238, 238) ;
+    outline: none;
+    width: 30%;
+}
+
+.contenedor-registro-usuario h4{
+    color: rgb(255, 115, 29) ;
+    font-size: 40px;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caprasimo', cursive;
+}
+
+.contenedor-registro-usuario .checkbox{
+    position: absolute;
+    margin-left: -180px;
+    margin-top: 10px;
+}
+
+.contenedor-botones-usuario{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-registro-usuario .boton-usuario{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 115, 29) ;
+    border: none;
+    padding: 15px;
+    color:rgb(238, 238, 238);
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    margin-top: 5px;
+    outline: none;
+    text-shadow: 3px 1px 2px black;
+}
+
+
+.contenedor-tabla-registroUsuario{
+    width: 97%;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px rgb(255, 115, 29);
+    border-radius: 30px;
+    padding: 20px;
+
+}
+
+
+.contenedor-tabla-registroUsuario th{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 98, 0);
+    padding: 8px;
+}
+
+.contenedor-tabla-registroUsuario td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.contenedor-tabla-registroUsuario .modificar{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 112, 29) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    outline: none;
+}
+
+.contenedor-tabla-registroUsuario .modificar:hover{
+    background-color: rgb(216, 89, 10);
+}
+
+.contenedor-tabla-registroUsuario .btn-eliminar{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 29, 29) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    outline: none;
+}
+
+.contenedor-tabla-registroUsuario .btn-eliminar:hover{
+    background-color: rgb(189, 0, 0);
+}
+
+.boton-cerrarSesion{
+    margin: 50px;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0);
+    background-color: rgb(255, 94, 0) ;
+    border: none;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+.boton-cerrarSesion:hover{
+    background-color: rgb(158, 71, 0);
+}

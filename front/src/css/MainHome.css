@@ -1,0 +1,252 @@
+.contenedor-bienvenida {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../assets/cat-home2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 380px;
+
+}
+
+.contenedor-bienvenida h1 {
+  font-family: 'Concert One', cursive;
+  font-size: 100px;
+  margin-left: 10px;
+  margin-top: -1.2px;
+  color: rgb(255, 247, 233);
+  text-shadow: 4px 1px 2px rgb(255, 115, 29);
+}
+
+.contenedor-bienvenida h2 {
+  font-family: 'Concert One', cursive;
+  font-size: 70px;
+  margin-top: -90px;
+  margin-left: 14px;
+  color: rgb(255, 115, 29);
+  text-shadow: 2px 2px 2px white;
+}
+
+
+.imgPerfil{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.contenedor-textarea{
+    display: flex;
+    width: auto;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+
+.textarea-bienvenida{
+    width: 300px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    z-index: 30;
+    margin-top: 70px;
+
+    
+}
+
+.nota{
+    position: absolute;
+    z-index: 20;
+
+}
+
+.contenedor-tareas{
+    display: flex;
+
+}
+
+.contenedor-agregarTarea{
+    width: 30%;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    padding: 30px 50px 40px 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(255, 115, 29);
+    margin-bottom: 50px;
+}
+
+.contenedor-agregarTarea h4{
+    color: rgb(255, 115, 29) ;
+    font-size: 40px;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.contenedor-agregarTarea label{
+    font-size: 25px;
+    margin-right: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.contenedor-agregarTarea input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: rgb(238, 238, 238) ;
+    outline: none;
+    width: 100%;
+}
+
+.contenedor-agregarTarea .prioridad{
+    display: flex;
+    margin-top: 10px;
+}
+
+.contenedor-agregarTarea .radio{
+    width: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.contenedor-agregarTarea button{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 115, 29) ;
+    border: none;
+    padding: 15px;
+    color:rgb(238, 238, 238);
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    margin-top: 5px;
+    outline: none;
+    text-shadow: 3px 1px 2px black;
+}
+
+.contenedor-agregarTarea button:hover{
+    background-color: rgb(216, 89, 10);
+}
+
+
+.contenedor-tabla{
+    width: 65%;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px rgb(255, 115, 29);
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+
+.contenedor-tabla table{
+    width: 100%;
+
+}
+
+.contenedor-tabla th{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: rgb(255, 98, 0);
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+    padding: 15px 0px 0px 0px;
+    border-radius: 50px;
+
+}
+
+.contenedor-tabla td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-tabla .btn-editar{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 150, 29) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+.contenedor-tabla .btn-editar:hover{
+    background-color: rgb(216, 89, 10);
+}
+
+.contenedor-tabla .btn-eliminar{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 29, 29) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+@media (max-width: 968px) {
+    .contenedor-bienvenida {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      height: 250px;
+      background-size: scale-down;
+    }
+
+    .contenedor-textarea{
+        display: none;
+    }
+  
+    .contenedor-bienvenida h1 {
+      font-size: 60px;
+      margin-top: 0;
+    }
+  
+    .contenedor-bienvenida h2 {
+      font-size: 40px;
+      margin-top: 10px;
+    }
+
+    .contenedor-tareas {
+        flex-direction: column;
+      }
+    
+      .contenedor-agregarTarea {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 20px;
+      }
+    
+      .contenedor-tabla {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+      }
+  }
+
+  @media (max-width: 668px){
+    .contenedor-bienvenida {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      background-image: none;
+      background: radial-gradient(circle, rgba(255,234,190,1) 0%, rgba(133,83,40,1) 100%);
+    }
+  } 
+
+

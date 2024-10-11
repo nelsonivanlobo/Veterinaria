@@ -1,0 +1,101 @@
+
+.contenedor-productos{
+  display: flex;
+  margin-bottom: 50px;
+
+}
+
+.contenedor-agregar-productos2{
+  width: 85%;
+  margin-left: 20px;
+}
+
+.contenedor-agregar-productos{
+  width: 100%;
+  height: auto;
+
+  background-color:rgb(238, 238, 238);
+  padding: 20px;
+  border-radius: 50px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px rgb(255, 115, 29);
+}
+
+.contenedor-agregar-productos label{
+  font-size: 20px;
+  margin-right: 5px;
+  font-family: 'Karla', sans-serif;
+}
+.contenedor-agregar-productos input{
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px dotted black;
+  background-color: rgb(238, 238, 238) ;
+  outline: none;
+  width: 50%;
+}
+
+.contenedor-agregar-productos h4{
+  color: rgb(255, 115, 29) ;
+  font-size: 40px;
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Caprasimo', cursive;
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.contenedordecards h1{
+  
+  color: rgb(255, 115, 29) ;
+  font-size: 40px;
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+  margin-left: 30px;
+  font-family: 'Caprasimo', cursive;
+}
+
+.cards {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  background-color: rgb(238, 238, 238);
+  flex-basis: calc(33.33% - 60px); /* Establece el ancho base de las tarjetas */
+  padding: 30px;
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.card-title{
+  color: rgb(255, 115, 29);
+}
+.card-text{
+ color: black;
+}
+
+.btn-producto{
+  background-color: rgb(255, 115, 29);
+  border: none;
+} 
+
+.btn-producto:hover{
+  background-color: rgb(189, 86, 22);
+}
+
+.btn-eliminar-producto{
+  background-color: rgb(255, 60, 0);
+  border: none;
+  margin-left: 5px;
+}
+
+.btn-eliminar-producto:hover{
+  background-color: rgb(199, 54, 10);
+}
+

@@ -1,0 +1,204 @@
+.contenedor-agregar{
+    height: 100%;
+    padding: 20px;
+}
+
+.contenedor-input{
+    margin-left: 50px;
+}
+
+.input-paciente{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px dotted black;
+    width: 600px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.input-paciente:focus{
+    background-color: rgba(255, 116, 29, 0.555) ;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+.icono-lupa{
+    position: relative;
+   color: rgb(0, 0, 0);
+   font-size: 2em;
+   left: -150px;
+   top: -5px;
+}
+
+
+
+
+
+
+
+.agregar-cliente, .agregar-paciente{
+    display: none;
+    width: 350px;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    padding: 30px 50px 40px 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+    box-shadow: 0px 0px 10px rgb(255, 115, 29);
+}
+
+.agregar-cliente h4{
+    color: rgb(255, 115, 29) ;
+    font-size: 30px;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.agregar-cliente label{
+    font-size: 20px;
+    margin-right: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.agregar-cliente input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: rgb(238, 238, 238) ;
+    outline: none;
+    width: 100%;
+}
+
+
+.agregar-paciente h4{
+    color: rgb(255, 115, 29) ;
+    font-size: 30px;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Caprasimo', cursive;
+
+}
+
+.agregar-paciente label{
+    font-size: 20px;
+    margin-right: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.agregar-paciente input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px dotted black;
+    background-color: rgb(238, 238, 238) ;
+    outline: none;
+    width: 100%;
+}
+
+
+
+.boton-cliente, .boton-paciente{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 115, 29) ;
+    border: none;
+    padding: 10px;
+    color:rgb(238, 238, 238);
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    margin-right: 50px;
+    outline: none;
+    text-shadow: 3px 1px 2px black;
+}
+
+.contenedor-cp{
+    display: flex;
+
+}
+
+.contenedor-tabla-cp{
+    width: 65%;
+    margin-left: 20px;
+    background-color:rgb(238, 238, 238);
+    margin-top: 30px;
+    box-shadow: 0px 0px 5px rgb(255, 115, 29);
+    border-radius: 50px;
+    padding: 20px;
+
+}
+
+.contenedor-tabla-cp table{
+    width: 100%;
+
+}
+
+.contenedor-tabla-cp th{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    color: rgb(255, 98, 0);
+    text-shadow: 2px 1px 2px rgb(0, 0, 0);
+
+}
+
+.contenedor-tabla-cp td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    font-size: 17px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-tabla-cp .btn-editar-p{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 150, 29) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+.contenedor-tabla-cp .btn-editar-p:hover{
+    background-color: rgb(216, 89, 10);
+}
+
+.contenedor-tabla-cp .btn-asignarTurno-p{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 115, 0) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+.agregar-cliente-btn, .agregar-paciente-btn{
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+    background-color: rgb(255, 115, 0) ;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 50px;
+    outline: none;
+}
+
+
+
+
+
+
