@@ -1,6 +1,6 @@
-####Veterinaria
+#### Veterinaria
 
--Login:
+- Login:
 ![Image](https://github.com/user-attachments/assets/1e186478-a2ff-4fe8-a3b5-3d23d7fb262c)
 
 -Inicio:
