@@ -8,7 +8,8 @@
   
 ![Image](https://github.com/user-attachments/assets/41d7166d-4760-4fd5-8157-54a8d26ae4e3)
 
-
+- Inicio
+  
 ![Image](https://github.com/user-attachments/assets/2f246da6-fd18-4fcf-a431-347c17e5724a)
 
 - Uusario:
@@ -27,6 +28,7 @@
   
 ![Image](https://github.com/user-attachments/assets/188e4d36-7762-4d68-9187-7a833a9776eb)
 
+- Productos
 
 ![Image](https://github.com/user-attachments/assets/f9a49e9c-d22d-4803-9662-3ff2bda8e422)
 
